@@ -32,7 +32,7 @@ Sleep : 6 uA
 
 With this code, I've archieved 50μA of power consumption according to the above schematic. The 2AA power supply deliver around 3.3v voltage.<br/>
 
-⚠️ Don't know the real effect of it but I removed the pin initialization in "wiring.c", a core lirbary of samd21 (according to this [forum issue](https://forum.arduino.cc/t/lowest-consumption-issue/479483/17)).
+⚠️  Don't know the real effect of it but I removed the pin initialization in "wiring.c", a core lirbary of samd21 (according to this [forum issue](https://forum.arduino.cc/t/lowest-consumption-issue/479483/17)).
 
 Find "wiring.c" on macos :
 - Open terminal
